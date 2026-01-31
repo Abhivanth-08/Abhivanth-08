@@ -48,17 +48,6 @@
 📊 CGPA: **8.8**
 
 </td>
-<td width="50%">
-
-### 💼 **Internship**
-**ML Engineer**  
-📍 Nitroware Technologies, Coimbatore  
-📅 Jan 2025 - Feb 2025  
-✅ Built predictive ML models  
-✅ Implemented Flask applications  
-✅ Enhanced ML workflow expertise
-
-</td>
 </tr>
 </table>
 
@@ -272,22 +261,6 @@ AI agent optimizing resumes for ATS compatibility by analyzing job descriptions 
 
 ---
 
-### ⚡ FUN FACT
-
-```python
-class Abhivanth:
-    def __init__(self):
-        self.name = "Abhivanth R"
-        self.role = "AI Engineer | IoT Developer | Freelancer"
-        self.language_spoken = ["Python", "C", "Java", "R", "TypeScript"]
-        self.interests = ["AI/ML", "Robotics", "IoT", "Computer Vision"]
-        
-    def say_hi(self):
-        print("Thanks for dropping by! Let's create something amazing together!")
-
-me = Abhivanth()
-me.say_hi()
-```
 
 **Output:** *Thanks for dropping by! Let's create something amazing together!*
 
@@ -299,4 +272,4 @@ me.say_hi()
 
 ---
 
-**© 2026 Abhivanth R | Built with ❤️ and AI**
+**© 2026 Abhivanth R**
