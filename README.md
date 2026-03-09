@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://abhivanth-r.vercel.app/">Portfolio</a> •
+  <a href="https://abhivanthr.vercel.app/">Portfolio</a> •
   <a href="https://www.linkedin.com/in/abhivanth-r-223b2b281">LinkedIn</a> •
   <a href="https://github.com/Abhivanth-08">GitHub</a> •
   <a href="mailto:abhicoder39@gmail.com">Email</a>
