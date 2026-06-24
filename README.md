@@ -94,10 +94,7 @@ I am an **AI Engineer** specializing in **Machine Learning**, **Computer Vision*
 
 <br />
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhivanth-08&show_icons=true&title_color=FFD700&text_color=A6A6A6&icon_color=FFD700&bg_color=0D0D0D&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhivanth-08&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=A6A6A6&currStreakLabel=FFD700&sideLabels=A6A6A6&dates=A6A6A6&background=0D0D0D&hide_border=true" alt="GitHub Streak" />
-</div>
+
 
 <p align="center">
   <br />
