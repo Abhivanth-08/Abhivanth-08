@@ -1,19 +1,16 @@
 <div align="center">
-  <h1>Hi there, I'm Abhivanth R 👋</h1>
-  <p>
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Freelancer;Machine+Learning+%7C+Computer+Vision;IoT+Developer+%7C+Researcher;Building+Intelligent+Systems" alt="Typing SVG" />
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+Freelancer;Machine+Learning+%7C+Computer+Vision;IoT+Developer+%7C+Researcher;Building+Intelligent+Systems" alt="Typing SVG" />
 
   <p>
-    <a href="https://abhivanth-r.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-    <a href="https://www.linkedin.com/in/abhivanth-r-223b2b281"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:abhicoder39@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://abhivanth-r.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D0D0D?style=for-the-badge&logo=vercel&logoColor=FFD700&labelColor=000000&color=0D0D0D" alt="Portfolio"/></a>
+    <a href="https://www.linkedin.com/in/abhivanth-r-223b2b281"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=000000&color=0D0D0D" alt="LinkedIn"/></a>
+    <a href="mailto:abhicoder39@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=000000&color=0D0D0D" alt="Email"/></a>
   </p>
 </div>
 
 ---
 
-## 🚀 About Me
+## ✦ About Me
 
 I am an **AI Engineer** specializing in **Machine Learning**, **Computer Vision**, and **Intelligent Systems**. I build production-grade solutions leveraging LLMs, computer vision, and IoT integration. As a published researcher with hands-on experience deploying AI systems, I thrive at the intersection of research and real-world application.
 
@@ -22,108 +19,57 @@ I am an **AI Engineer** specializing in **Machine Learning**, **Computer Vision*
 
 ---
 
-## 🏆 Featured Projects
+## ✦ Featured Projects
 
 ### 🧠 AI & Machine Learning
 
-<details open>
-<summary><b>🔍 JEPA Exhibit Defect Detection</b></summary>
-<br>
+#### 🥇 [JEPA Exhibit Defect Detection](https://abhivanth.vercel.app/project/exhibit-defect-detection)
+> **Advanced Self-Supervised Anomaly Detection System**  
+> An advanced AI backend utilizing a Joint-Embedding Predictive Architecture (JEPA) to identify anomalies in real-time video streams. Employs Deep SVDD, Temporal Transformers, and WebSockets for live inference.  
+> *Tech: Python, PyTorch, FastAPI, JEPA, YOLO, WebSockets*
 
-> **Advanced Self-Supervised Anomaly Detection System**
-* **Links**: [Video Demo](https://www.youtube.com/watch?v=QXVEDSoT5Rk) | [Portfolio Page](https://abhivanth.vercel.app/project/exhibit-defect-detection)
+#### 🥇 [LLM Internals Explorer](https://abhivanth.vercel.app/project/llm-internals-explorer)
+> **Transformer Architecture Educational Platform**  
+> Features an Attention Head Personality Profiler analyzing GPT-2's 144 attention heads, 3D semantic vector arithmetic, real-time BPE tokenization, and prompt injection detection.  
+> *Tech: Python, React, FastAPI, PyTorch, Transformers, Three.js*
 
-**About This Project**
-The **JEPA Exhibit Defect Detection System** is an advanced AI backend engineered to identify anomalies or physical defects in real-time video streams, specifically designed for exhibition or CCTV environments. It operates under a self-supervised learning paradigm, eliminating the need for massively labeled sets of "defective" data by exclusively learning the patterns of "normal" behavior instead. 
+#### 🥇 [Pull Request Review Agent](https://abhivanth.vercel.app/project/pr-review-agent)
+> **Intelligent Automated Code Reviewer**  
+> AI tool for automated code reviews featuring security vulnerability detection and code optimization suggestions.  
+> *Tech: TypeScript, LangChain, FastAPI, GitHub API*
 
-**Architecture & Features**:
-* At its core, the system utilizes a **Joint-Embedding Predictive Architecture (JEPA)**, which breaks down video frames into components and learns to predict future spatial and temporal representations. 
-* Incorporates **Temporal Transformers** to understand both short-term actions and long-term activity contexts. 
-* For spatial awareness, a **Spatial JEPA Head** cross-examines patches of video to detect localized physical anomalies. 
-* Employs a **Deep SVDD (Support Vector Data Description) Energy Model** to generate a final definitive anomaly score, flagging any events or objects that heavily deviate from the learned "normal" manifold.
-* Built on **FastAPI**, offering a robust and asynchronous API supporting standard video file uploads as well as live streaming.
-* Real-time processing capability utilizing **WebSockets** and **Server-Sent Events (SSE)** to stream inference progress, frame-by-frame anomaly scores, and base64-encoded visual outputs directly to a frontend client.
-* A **YOLO-based Human Masking** filter is integrated during the preprocessing phase to combat false positives triggered by irrelevant dynamic elements.
+#### 🥇 [AI Foley Studio](https://abhivanth.vercel.app/project/ai-foley-studio)
+> **Automated Foley Sound Generation Pipeline**  
+> AI-powered platform for automatic Foley sound effect generation utilizing YOLO/MediaPipe for video analysis and synchronization.  
+> *Tech: LangChain, MediaPipe, YOLO, TypeScript, FastAPI*
 
-Ultimately, this multi-stage pipeline provides a highly configurable, latency-optimized, and deeply analytical tool for maintaining quality control and security in physical exhibition spaces.
+#### 🥇 [Info Redaction Agent](https://abhivanth.vercel.app/project/info-redaction-agent)
+> **PII Detection & Redaction System**  
+> AI system automatically detecting and redacting PII from PDFs to ensure GDPR/CCPA compliance using advanced NLP pipelines.  
+> *Tech: Python, LangChain, PyMuPDF, Docling, FastAPI*
 
-* **Tech Stack**: `Python` `PyTorch` `FastAPI` `JEPA` `YOLO` `Transformers` `WebSockets`
-</details>
-
-<details>
-<summary><b>🔬 LLM Internals Explorer</b></summary>
-<br>
-
-> **Educational platform exposing transformer architecture internals**
-* **Links**: [GitHub Repo](https://github.com/Abhivanth-08/LLM_WORKFLOW) | [Live Demo](https://llm-workflow-five.vercel.app/) | [Video](https://www.youtube.com/watch?v=gXtoIvVpRog)
-* Features Attention Head Personality Profiler analyzing GPT-2's 144 attention heads, 3D semantic vector arithmetic, real-time BPE tokenization, and prompt injection detection.
-* **Tech Stack**: `Python` `React` `FastAPI` `PyTorch` `Transformers` `TypeScript` `Three.js`
-</details>
-
-<details>
-<summary><b>🛡️ Info Redaction Agent</b></summary>
-<br>
-
-> **AI system automatically detecting and redacting PII from PDFs**
-* **Links**: [GitHub Repo](https://github.com/Abhivanth-08/info_redaction_main) | [Live Demo](https://0207abhi-info-redaction.hf.space) | [Video](https://youtu.be/lrfmWWnmnu0)
-* Ensures GDPR/CCPA compliance using advanced NLP pipelines.
-* **Tech Stack**: `Python` `LangChain` `PyMuPDF` `Docling` `FastAPI` `TypeScript`
-</details>
-
-<details>
-<summary><b>🎵 AI Foley Studio</b></summary>
-<br>
-
-> **AI-powered platform for automatic Foley sound effect generation**
-* **Links**: [GitHub Repo](https://github.com/Abhivanth-08/AI-Foley-Studio) | [Live Demo](https://ai-foley-studio.vercel.app/) | [Video](https://youtu.be/p_SFvmGrAnE)
-* Utilizes YOLO/MediaPipe for video analysis to synchronize generated audio with visual actions.
-* **Tech Stack**: `LangChain` `Computer Vision` `MediaPipe` `YOLO` `TypeScript` `FastAPI`
-</details>
-
-<details>
-<summary><b>👨‍💻 Pull Request Review Agent</b></summary>
-<br>
-
-> **Intelligent AI tool for automated code reviews**
-* **Links**: [GitHub Repo](https://github.com/Abhivanth-08/PR_review) | [Live Demo](https://pr-review-phi.vercel.app) | [Video](https://youtu.be/fddj0gHc6f0)
-* Features security vulnerability detection and code optimization suggestions.
-* **Tech Stack**: `TypeScript` `LangChain` `FastAPI` `GitHub API`
-</details>
-
-<details>
-<summary><b>📄 AI Assistants: Resume Reformer & College Chatbot</b></summary>
-<br>
-
-* **[Resume Reformer Agent](https://github.com/Abhivanth-08/Resume-Reformer)**: AI agent optimizing resumes for ATS compatibility through job description analysis.
-* **[College Chatbot](https://github.com/Abhivanth-08/College_chatbot)**: AI-powered chatbot with RAG pipeline for admissions, events, and exam prep.
-* **Tech Stack**: `Python` `LangChain` `Prompt Engineering` `PyMuPDF` `Docling` `LanceDB`
-</details>
-
-### 🤖 Robotics & IoT
-
-<details>
-<summary><b>🦾 Autonomous Robots: NDT & Versatile Mini Robot</b></summary>
-<br>
-
-* **[NDT Robot](https://github.com/Abhivanth-08/NDT)** | [Video Demo](https://youtu.be/ZaZC1xjsAsI): Autonomous Non-Destructive Testing robot using ultrasonic, infrared, and eddy current sensors for real-time defect detection.
-* **[Versatile Mini Robot](https://github.com/Abhivanth-08/Mini_Robot)** | [Video Demo](https://youtu.be/i9UhpPylS8M): Multifunctional robot with object recognition, QR/text scanning, and virtual assistance on Raspberry Pi.
-* **Tech Stack**: `Python` `OpenCV` `Raspberry Pi` `Sensors` `Machine Learning`
-</details>
-
-### 🌐 Web Development
-
-<details>
-<summary><b>🛒 E-Commerce Platform</b></summary>
-<br>
-
-* **Links**: [GitHub Repo](https://github.com/Abhivanth-08/JV_web) | [Live Demo](https://jvenerprise.vercel.app)
-* Full-featured e-commerce platform with secure payments and admin dashboard.
-* **Tech Stack**: `TypeScript` `Supabase` `React`
-</details>
+#### 🥇 [College Chatbot](https://abhivanth.vercel.app/project/college-chatbot)
+> **Institutional RAG Assistant**  
+> AI-powered chatbot with a RAG pipeline for admissions, events, and exam preparation.  
+> *Tech: Python, LangChain, LanceDB, Docling, FastAPI*
 
 ---
 
-## 💻 Technical Skills
+### 🤖 Robotics & IoT
+
+#### 🥇 [NDT Robot](https://abhivanth.vercel.app/project/ndt-robot)
+> **Autonomous Non-Destructive Testing Robot**  
+> Uses ultrasonic, infrared, and eddy current sensors for real-time defect detection.  
+> *Tech: Python, OpenCV, Raspberry Pi, Sensors, Machine Learning*
+
+#### 🥇 [Versatile Mini Robot](https://abhivanth.vercel.app/project/versatile-mini-robot)
+> **Multifunctional Assistant Robot**  
+> Features object recognition, QR/text scanning, and virtual assistance on a Raspberry Pi.  
+> *Tech: Python, OpenCV, Raspberry Pi, Sensors*
+
+---
+
+## ✦ Technical Skills
 
 | Domain | Technologies |
 | :--- | :--- |
@@ -134,7 +80,7 @@ Ultimately, this multi-stage pipeline provides a highly configurable, latency-op
 
 ---
 
-## 📈 Experience & Achievements
+## ✦ Experience & Achievements
 
 * **💼 ML Engineer Intern** @ *Nitroware Technologies* (Jan 2025 - Feb 2025)
   * Built predictive ML models and Flask-based applications for breach event detection.
@@ -149,15 +95,11 @@ Ultimately, this multi-stage pipeline provides a highly configurable, latency-op
 <br />
 
 <div align="center">
-  <a href="https://github.com/Abhivanth-08">
-    <img src="https://github-readme-stats.vercel.app/api?username=Abhivanth-08&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/Abhivanth-08">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhivanth-08&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Abhivanth-08&show_icons=true&title_color=FFD700&text_color=A6A6A6&icon_color=FFD700&bg_color=0D0D0D&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhivanth-08&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=A6A6A6&currStreakLabel=FFD700&sideLabels=A6A6A6&dates=A6A6A6&background=0D0D0D&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <p align="center">
   <br />
-  <i>Building the future with AI, one system at a time.</i>
+  <b>Building the future with AI, one system at a time.</b>
 </p>
