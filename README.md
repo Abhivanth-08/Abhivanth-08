@@ -6,6 +6,9 @@
     <a href="https://www.linkedin.com/in/abhivanth-r-223b2b281"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=000000&color=0D0D0D" alt="LinkedIn"/></a>
     <a href="mailto:abhicoder39@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=000000&color=0D0D0D" alt="Email"/></a>
   </p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Abhivanth-08&style=for-the-badge&color=0D0D0D&labelColor=000000" alt="Profile Views" />
+  </p>
 </div>
 
 ---
